@@ -24,6 +24,7 @@ const Home = () => {
             <Row className='mt-4 mb-4'>
                 <Col md={4}>
                     <h1>About BlockchainBallot</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas a, facere laboriosam debitis labore vel error repellendus, voluptate delectus quasi asperiores architecto corrupti cum, pariatur quisquam corporis vitae ab beatae.</p>
                 </Col>
                 <Col md={4}></Col>
             </Row>
