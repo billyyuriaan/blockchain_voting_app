@@ -38,6 +38,22 @@ const Home = () => {
                     <img src={BallotIMG} alt="Iamge" loading='lazy' width={400} height={200} />
                 </Col>
             </Row>
+            <br />
+            <Row className='mt-4 mb-4'>
+                <Col md={4}>
+                    <img src={BallotIMG} alt="Iamge" loading='lazy' width={400} height={200} />
+                </Col>
+                <Col md={4}>
+                    
+                </Col>
+                <Col md={4}>
+                    <h1 className='text-center'>Why BlockchainBallot</h1>
+                    <br />
+                    <p className='text-center'>in the context of voting, this means that the voting records are stored on a distributed ledger that is maintained by multiple participants, making it difficult or impossible to change, hack, or cheat the system
+. Each vote is recorded as a block in the chain, and every time a new vote occurs, a record of that vote is added to every participant's ledger
+. This ensures that the voting process is transparent and tamper-proof. BlockchainBallot offers an alternative to traditional voting systems that are vulnerable to fraud and manipulation. With BlockchainBallot, voters can be confident that their vote is secure and that the results of the election are accurate.</p>
+                </Col>
+            </Row>
         </Container>
     </>
   )
